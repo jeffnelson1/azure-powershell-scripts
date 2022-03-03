@@ -1,8 +1,8 @@
 param (
-    [Parameter(Mandatory = $true)][string]$serverName,
-    [Parameter(Mandatory = $true)][string]$ticketNumber,
-    [Parameter(Mandatory = $true)][string]$requesterName,
-    [Parameter(Mandatory = $true)][string]$snapShotDescription
+    [Parameter(Mandatory)][string]$serverName,
+    [Parameter(Mandatory)][string]$ticketNumber,
+    [Parameter(Mandatory)][string]$requesterName,
+    [Parameter(Mandatory)][string]$snapShotDescription
 )
 
 $ErrorActionPreference = 'Stop'
