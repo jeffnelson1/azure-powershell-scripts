@@ -1,6 +1,6 @@
 param (
-    [Parameter(Mandatory = $true)][string]$serverName,
-    [Parameter(Mandatory = $true)][string]$snapShotPartialName
+    [Parameter(Mandator)][string]$serverName,
+    [Parameter(Mandatory)][string]$snapShotPartialName
 )
 
 $ErrorActionPreference = 'Stop'
